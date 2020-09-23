@@ -1,5 +1,5 @@
 import express from 'express';
-import { SERVER_PORT } from '../global/environment';
+import { SERVER_PORT } from '../global/enviroment';
 
 export default class Server {
     public app: express.Application;
