@@ -1,12 +1,11 @@
 import { Router } from 'express';
 import Server from './classes/server';
-//import { SERVER_PORT } from './global/environment';
 import router from './routes/router';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 
 
-const server = new Server();
+const server = Server.instance;
 
 
 //BodyParser
